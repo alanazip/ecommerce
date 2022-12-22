@@ -1,0 +1,18 @@
+EXECUTAR EM ORDEM QUE APARECE AQUI:
+
+Antes de rodar o projeto, execute esses 2 comandos:
+
+php artisan permission:create-permission admin
+php artisan permission:create-permission user
+
+para cadastrar um usuário, rodar este comando:
+php artisan db:seed
+
+primeiro usuário se encontra em: database > seeders > admin.php
+
+Para realizar a confirmação de login é necessário criar uma conta no https://mailtrap.io/home
+Vai em Inbox
+
+php artisan permission:create-permission admin
+php artisan permission:create-permission user
+php artisan db:seed
